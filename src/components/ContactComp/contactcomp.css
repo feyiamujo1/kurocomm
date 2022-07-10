@@ -1,0 +1,128 @@
+.contact_component{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+.contact_container{
+    width: 90%;
+    padding: 50px 0px 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.address_container, .form_container{
+    width: 50%;
+}
+.form_container{
+    padding-top: 60px;
+}
+.address_container{
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+.address_container h1{
+    margin: 10px 0px;
+}
+.address_container h2{
+    margin-top: 10px;
+    color: #EF1514;
+}
+.email_container, .location_container, .phone_container{
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.email_container p, .location_container p, .phone_container p{
+    margin-top: 0px;
+    
+}
+.email_container:hover p, .location_container:hover p, .phone_container:hover p{
+    color: #6e737e;
+}
+.location_container{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.address_container div{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.address_container div img{
+    margin-right: 10px;
+    width: 20px;
+}
+.input_container{
+    display: flex;
+    justify-content: space-between;
+}
+.user_box {
+    position: relative;
+    width: 47%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+.user_box input, .other_container textarea {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2f3239;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #2f3239;
+    outline: none;
+    background: transparent;
+}
+.user_box input:hover, .other_container textarea:hover{
+    background-color: #f8f6f6;
+}
+.other_container textarea{
+    height: 35px;
+}
+.user_box label {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #2f3239;
+    pointer-events: none;
+    transition: .5s;
+}
+.other_container{
+    width: 100%;
+    position: relative;
+}
+.user_box input:focus ~ label, .user_box input:valid ~ label,
+.user_box textarea:focus ~ label, .user_box textarea:valid ~ label {
+    top: -25px!important;
+    left: 0;
+    color: #2f3239;
+    font-size: 12px;
+}
+input[type=button]{
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #EF1514;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+input[type=button]:hover{
+    background-color: #ad0f0f;
+}

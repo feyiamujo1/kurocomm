@@ -1,0 +1,64 @@
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.navbar{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 47, 47, 0.5);
+    padding: 10px 50px;
+    animation: 1s ease-in slideInFromTop;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.navbar .logo img{
+    height: 63px;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.navbar .logo img:hover{
+    filter: brightness(0.7);
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.navbar .nav_links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar .nav_links li{
+    padding: 0;
+    margin-left: 30px;
+    animation: 1.5s ease-in 0s 1 slideInFromTop;
+}
+.navbar .nav_links li .text_link{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar .nav_links li .text_link:hover{
+    text-decoration: none;
+    color: #EF1514;
+}
+.navbar .nav_links li .text_link:visited{
+    text-decoration: none;
+}
+.active{
+    color: #EF1514 !important;
+}
+.active:hover{
+    color: #fff !important;
+}
