@@ -14,6 +14,24 @@ import Contactcomp from "../../components/ContactComp/Contactcomp";
 // import DateImage from "../../images/date.png"
 
 function Home(){
+    // const OurServices = [
+    //     {id:1, serviceIcon:MonitoringIcon, title:"MONITORING &#38; <br/> EVALUATION SYSTEMS", 
+    //         first_text:"We develop and provide systems that help projects and organizations assess and manage performances so the right improvements can be made, thereby getting them on a more profitable path.",
+    //         second_text: "With KCL’s Monitoring and Evaluation system, you are sure of a greater understanding of where your organization is and where it’s headed."
+    //     },
+    //     {id:2, serviceIcon:ManagementIcon, title:"PROJECT <br/> MANAGEMENT", 
+    //         first_text:"We employ a methodical approach to planning and guiding project processes from start to finish to achieving its set of goals.",
+    //         second_text: "Our methodical processes are guided through five stages: initiation, planning and design, executing, Monitoring and controlling (maintaining progress of the activities that comprise the project), and closing."
+    //     },
+    //     {id:3, serviceIcon:PlanningIcon, title:"CONCEPT DEVELOPMENT &#38; <br/> STRATEGIC PLANNING", 
+    //         first_text:"We implore a blend of creativity and analytics to provide options and solutions that fits into, meets, and exceeds your plans and expectations.",
+    //         second_text: "Using our unique methods, we evaluate ideas, concepts, and strategic business requirements to design an appropriate approach for our clients, so as to develop precise and specific solutions and project plan for issues resolution. "
+    //     },
+    //     {id:4, serviceIcon:SupportIcon, title:"PROFESSIONAL COMMUNICATIONS <br/> &#38; BRAND SUPPORT", 
+    //         first_text:"We offer strategic brand marketing communication services and brand activations designed to support organizations in creating an edge in their business path. We help organizations to understand their audience and position in the marketplace, so they can optimise their existing marketing strategies.",
+    //         second_text: "We effectively helps our clients to more accurately pinpoint the techniques best-suited to their organizations to relate, get and retain their customers thereby delivering more cost-effective marketing."
+    //     }
+    // ]
     return(
         <div className="homepage">
             <div className="intro_container">
@@ -39,7 +57,7 @@ function Home(){
                     <h2 className="features_heading">Features</h2>
                     <div className="inner_features_intro">
                         <h1>
-                            We are the best agency to improve your business.
+                            We are the best agency to improve your business
                         </h1>
                         <p>
                         Kuro Communications Limited (KCL) is a Consulting Company that strives to provide solutions 
@@ -48,24 +66,41 @@ function Home(){
                         </p>
                     </div>
                     <div className="inner_feature_content">
+                        {/* {
+                            OurServices ? OurServices.map((OurService) => (
+                                <div className="feature_container">
+                                    <div className="topic_holder">
+                                        <div className="image_container">
+                                            <img src={OurService.serviceIcon} alt="Planning Icon"/>
+                                        </div>
+                                        <h2>
+                                            {OurService.title}
+                                        </h2>
+                                    </div>
+                                    <p>
+                                        {OurService.first_text}
+                                        <br/><br/>
+                                        {OurService.second_text}
+                                    </p>
+                                    <button className="features_button">Read More</button>
+                                </div>
+                            )):null
+                        } */}
                         <div className="feature_one feature_container">
                             <div className="topic_holder">
                                 <div className="image_container">
-                                    <img src={PlanningIcon} alt="Planning Icon"/>
+                                    <img src={MonitoringIcon} alt="Planning Icon"/>
                                 </div>
                                 <h2>
-                                    CONCEPT DEVELOPMENT &#38; 
-                                    <br/> STRATEGIC PLANNING
+                                    MONITORING &#38; <br/> EVALUATION SYSTEMS
                                 </h2>
                             </div>
                             <p>
-                            We implore a blend of creativity and analytics to provide options 
-                            and solutions that fits into, meets, and exceeds your plans and expectations.
-                            <br/><br/>
-                            Using our unique methods, we evaluate ideas, concepts, and 
-                            strategic business requirements to design an appropriate approach for our clients, 
-                            so as to develop precise and specific solutions and project plan for issues resolution.
+                                We develop and provide systems that help projects and organizations assess and manage performances so the right improvements can be made, thereby getting them on a more profitable path.
+                                <br/><br/>
+                                 With KCL’s Monitoring and Evaluation system, you are sure of a greater understanding of where your organization is and where it’s headed.
                             </p>
+                            <button className="features_button">Read More</button>
                         </div>
                         <div className="feature_two feature_container">
                             <div className="topic_holder">
@@ -82,23 +117,29 @@ function Home(){
                             <br/><br/>
                             Our methodical processes are guided through five stages: initiation, 
                             planning and design, executing, Monitoring and controlling (maintaining 
-                            progress of the activities that comprise the project), and closing.
+                            progress of the activities that comprise the project), and closing. 
                             </p>
+                            <button className="features_button">Read More</button>
                         </div>
                         <div className="feature_three feature_container">
                             <div className="topic_holder">
                                 <div className="image_container">
-                                    <img src={MonitoringIcon} alt="Planning Icon"/>
+                                    <img src={PlanningIcon} alt="Planning Icon"/>
                                 </div>
                                 <h2>
-                                    MONITORING &#38; <br/> EVALUATION SYSTEMS
+                                    CONCEPT <br/> DEVELOPMENT &#38; 
+                                    <br/> STRATEGIC PLANNING
                                 </h2>
                             </div>
                             <p>
-                                We develop and provide systems that help projects and organizations assess and manage performances so the right improvements can be made, thereby getting them on a more profitable path.
-                                <br/><br/>
-                                With KCL’s Monitoring and Evaluation system, you are sure of a greater understanding of where your organization is and where it’s headed.
+                            We implore a blend of creativity and analytics to provide options 
+                            and solutions that fits into, meets, and exceeds your plans and expectations.
+                            <br/><br/>
+                            Using our unique methods, we evaluate ideas, concepts, and 
+                            strategic business requirements to design an appropriate approach for our clients, 
+                            so as to develop precise and specific solutions and project plan for issues resolution.
                             </p>
+                            <button className="features_button">Read More</button>
                         </div>
                         <div className="feature_four feature_container">
                             <div className="topic_holder">
@@ -106,7 +147,7 @@ function Home(){
                                     <img src={SupportIcon} alt="Planning Icon"/>
                                 </div>
                                 <h2>
-                                PROFESSIONAL COMMUNICATIONS <br/> &#38; BRAND SUPPORT
+                                PROFESSIONAL <br/> COMMUNICATIONS <br/> &#38; BRAND SUPPORT
                                 </h2>
                             </div>
                             <p>
@@ -114,6 +155,7 @@ function Home(){
                             <br/><br/>
                             We effectively helps our clients to more accurately pinpoint the techniques best-suited to their organizations to relate, get and retain their customers thereby delivering more cost-effective marketing.
                             </p>
+                            <button className="features_button">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -133,13 +175,11 @@ function Home(){
                                     Why should you choose us?
                                 </h1>
                                 <p>
-                                Kuro Communications Limited (KCL) is a reputable Concepts Development 
-                                and Strategic Planning, Projects Management, Monitoring and Evaluation, 
-                                Professional Communications and Brand Support Consulting Company that 
-                                strives to provide solutions that fit into organization’s requirements.
+                                We approach every client's business as if it were our own. We believe a consulting firm should be more than an advisor. We put ourselves in our clients' shoes while aligning our incentives with their objectives. 
+                                We create and add value to our Clients with excellent solution delivery.
                                 </p>
-                                <p>
-                                    Reason why you should work with us:
+                                <p className="reasons_paragraph">
+                                    Here are some of the reasons why you should work with us:
                                 </p>
                                 {/* <h3>
                                     Our Core Compentencies
@@ -181,9 +221,9 @@ function Home(){
             </div> */}
             <div className="home_projects">
                 <div className="home_projects_container">
-                    <h3>
+                    <h2>
                         Completed Projects
-                    </h3>
+                    </h2>
                     <div className="home_project_top_container">
                         <h1>Check out our recent projects</h1>
                         <div className="home_project_inner_container">

@@ -21,7 +21,6 @@
 .slick-prev:before, .slick-next:before{
     font-size: 30px;
     color: #EF1514;
-    display: none;
 }
 .slick-dots li button:before{
     color: #000;
@@ -33,4 +32,14 @@
     border: none;
     outline: none;
 }
-
+.slick-prev, .slick-next{
+    display: none !important;
+}
+@media only screen and (max-width: 768px){
+    .carousel .slide_image_container {
+        height: 130px;
+    }
+    .carousel img{
+        width: 95%;
+    }
+}

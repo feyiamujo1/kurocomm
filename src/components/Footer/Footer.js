@@ -1,6 +1,6 @@
 import React from 'react';
 import "./footer.css";
-import Logo from "../../images/logo_footer.png";
+import Logo from "../../images/logo.png";
 import {NavLink} from "react-router-dom";
 import FacebookIcon from "../../images/facebookicon.png";
 import TwitterIcon from "../../images/twittericon.png";

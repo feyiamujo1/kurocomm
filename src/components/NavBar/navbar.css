@@ -10,7 +10,6 @@
     position: absolute;
     z-index: 999;
     width: 100%;
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +19,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 14px;
+    box-sizing: border-box;
+    overflow:hidden;
 }
 .navbar .logo img{
     height: 63px;
@@ -46,7 +47,7 @@
 }
 .navbar .nav_links li .text_link{
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
 }
 .navbar .nav_links li .text_link:hover{
@@ -61,4 +62,52 @@
 }
 .active:hover{
     color: #fff !important;
+}
+.sidebar_control_container{
+    display: none;
+    align-items: center;
+}
+#menubtn, #closebtn{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: none;
+    z-index: 100;
+}
+#menubtn:hover, #closebtn:hover, #menubtn:active, #closebtn:active{
+    color: #EF1514;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        background: none;
+        padding: 10px 40px;
+        
+    }
+    .navbar .nav_links{
+        position: absolute;
+        display: none;
+        height: 100vh;
+        width: 400px;
+        margin: 0;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        background-color: rgb(47, 47, 47, 0.5);
+    }
+    .sidebar_control_container{
+        display: flex;
+    }
+    #menubtn{
+        display: block;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar .logo img{
+        height: 50px;
+    }
 }
