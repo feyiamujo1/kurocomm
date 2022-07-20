@@ -17,7 +17,7 @@ function Footer() {
             <img src={Logo} alt="logo"/>
             <div className='news_letter_container'>
               <h3>Subscribe to our NewsLetter</h3>
-              <p>Stay current with our latest insights on selected <br></br> topics</p>
+              <p>Stay current with our latest insights on selected <br className='breaker'></br> topics</p>
               <form>
                 <input type="email" placeholder='Email'/>
                 <input type="submit"/>

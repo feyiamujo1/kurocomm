@@ -239,6 +239,7 @@ button{
     position:absolute;
     top: -2%;
     right: -3%;
+    z-index: -2;
     /* transform: translate(-50%, 50%); */
     height: 10px;
     width: 200px;
@@ -250,6 +251,7 @@ button{
     position:absolute;
     top: -2%;
     right: -3%;
+    z-index: -2;
     /* transform: translate(-50%, 50%); */
     height: 200px;
     width: 10px;
@@ -535,6 +537,21 @@ blockquote:after {
 /* .home_project_gallery_bottom .image_container .main_container span p:hover{
     color: #ad0f0f;
 } */
+@media only screen and (max-width: 1000px) {
+    .about .inner_about .about_top .about_heading{
+        align-items: center;
+    }
+    .about .inner_about .about_top .about_image_container{
+        height: 420px;
+    }
+    .about .inner_about .about_top .about_text_container{
+        padding-left: 40px;
+    }
+    .reasons_paragraph,
+    .about .inner_about .about_top .about_text_container ol{
+        display: none;
+    }
+}
 @media only screen and (max-width: 768px) {
     .intro_container .intro_container_inner h1{
         font-size: 46px;
@@ -586,16 +603,16 @@ blockquote:after {
         display: none !important;
     }
     .features .inner_features .inner_feature_content .feature_container{
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .features{
         padding-bottom: 30px;
     }
+    .features .inner_features .inner_feature_content .feature_container:hover{
+        top: -5px;
+    }
     .about{
         padding-top: 30px;
-    }
-    .about .inner_about .about_top .about_text_container{
-        padding-left: 45px;
     }
     /* .about .inner_about .about_top .about_image_container{
         height: 400px;
@@ -649,6 +666,7 @@ blockquote:after {
     .home_project_gallery_bottom .image_container .main_container h4{
         font-size: 15px;
     }
+
     .home_project_gallery_bottom .image_container .project_image{
         transform: scale(1.7, 1);
         height: 300px;
@@ -711,15 +729,15 @@ blockquote:after {
         content: url('/src/images/about_background_unsplash_mobile.jpg');
     }
     .about .inner_about .about_top .about_image_container::before{
-        top: -3%;
-        z-index: -2;
+        top: -2.5%;
         width: 150px;
+        height: 15px;
+        right: -2%;
     }
     .about .inner_about .about_top .about_image_container::after{
-        right: -3%;
-        height: 150px;
-        z-index: -2;
-        width: 15px;
+        right: -2%;
+        height: 135px;
+        width: 20px;
     }
     .partners .partner_container h2::after, .partners .partner_container h2::before{
         width: 35px;
@@ -761,5 +779,8 @@ blockquote:after {
     .home_project_top_container{
         position: relative;
         padding-bottom: 50px;
+    }
+    .breaker{
+        display: none;
     }
 }
