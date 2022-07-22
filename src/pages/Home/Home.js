@@ -151,8 +151,8 @@ function Home(){
                                     <li>We provide prime solutions in line with client’s expectations.</li>
                                     <li>We possess an extensive range of experience, network and resources.</li>
                                     <li>We have a deep understanding and knowledge base of the Nigerian Business Environment.</li>
-                                    <li>We have a team of Young Nigerian professionals working intensively to deliver expert solutions for clients.</li>
-                                    <li>We have a rich array of International Partners and network of resources that helps expand its offering and service delivery.</li>
+                                    {/* <li>We have a team of Young Nigerian professionals working intensively to deliver expert solutions for clients.</li>
+                                    <li>We have a rich array of International Partners and network of resources that helps expand its offering and service delivery.</li> */}
                                 </ol>
                                 <button>
                                     More About Us

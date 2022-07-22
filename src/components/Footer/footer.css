@@ -179,7 +179,6 @@
         display: flex;
         box-sizing: border-box;
         margin-bottom: 10px;
-
     }
     .footer .news_letter_container input[type="email"]{
         width: 70%;

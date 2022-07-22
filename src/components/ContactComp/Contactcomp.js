@@ -12,7 +12,6 @@ const ContactCompContainer =
 `
 
 function Contactcomp(props) {
-  console.log(props)
   return (
     <ContactCompContainer pt ={props.pt} bg={props.bg} className='contact_component'>
         <div className='contact_container'>

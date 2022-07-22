@@ -676,14 +676,14 @@ blockquote:after {
         transform: scale(1.9, 1.1);
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     button{
         padding: 15px 20px;
         font-size: 14px !important;
     }
     .intro_container{
         height: 90vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/home_bg_mobile.jpg") fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/images/home_bg_mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
