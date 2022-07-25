@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/kurocomm/static/css/main.c9e92e4a.css",
+    "main.js": "/kurocomm/static/js/main.1774714a.js",
+    "static/media/home_bg.jpg": "/kurocomm/static/media/home_bg.edcf39675db9262fadfd.jpg",
+    "static/media/home_bg_mobile.jpg": "/kurocomm/static/media/home_bg_mobile.91adcffe553e3c1dd331.jpg",
+    "static/media/logo.png": "/kurocomm/static/media/logo.4ea6c5510f401a7cba75.png",
+    "static/media/about_background_unsplash.jpg": "/kurocomm/static/media/about_background_unsplash.49af6f9d7c8cf74535e8.jpg",
+    "static/media/about_background_unsplash_mobile.jpg": "/kurocomm/static/media/about_background_unsplash_mobile.59c19f27a82c59bbbf07.jpg",
+    "static/media/adeolu_eletu_unsplash.jpg": "/kurocomm/static/media/adeolu_eletu_unsplash.77b459da494e1ac35b7b.jpg",
+    "static/media/FRSC_body_cam.jpg": "/kurocomm/static/media/FRSC_body_cam.fd4f5806a7999269e9c2.jpg",
+    "static/media/FRSC.png": "/kurocomm/static/media/FRSC.79a9e95b07be31d4b832.png",
+    "static/media/FedMOF.png": "/kurocomm/static/media/FedMOF.10f078450dbb007d983f.png",
+    "static/media/CBN.jpg": "/kurocomm/static/media/CBN.14507ebb449c51efd715.jpg",
+    "static/media/AEA.jpg": "/kurocomm/static/media/AEA.f26e35b763d18589930e.jpg",
+    "static/media/EdSG.jpg": "/kurocomm/static/media/EdSG.06c15959227c305b0bb8.jpg",
+    "static/media/NEDC.png": "/kurocomm/static/media/NEDC.9d6532cf975954f4c86b.png",
+    "static/media/mtn.png": "/kurocomm/static/media/mtn.1c37e9d649f6876b62c0.png",
+    "static/media/AICL.jpg": "/kurocomm/static/media/AICL.683060072b967df589d2.jpg",
+    "static/media/slick.svg": "/kurocomm/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/kurocomm/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/kurocomm/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/kurocomm/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/kurocomm/index.html",
+    "main.c9e92e4a.css.map": "/kurocomm/static/css/main.c9e92e4a.css.map",
+    "main.1774714a.js.map": "/kurocomm/static/js/main.1774714a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9e92e4a.css",
+    "static/js/main.1774714a.js"
+  ]
+}
