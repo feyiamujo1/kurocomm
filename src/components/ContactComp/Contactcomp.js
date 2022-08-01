@@ -60,10 +60,6 @@ function Contactcomp(props) {
                   <label>Message</label>
                 </div>
                 <input type="button" value="Send Message"/>
-                {/* <div className='textarea_container'>
-                  <textarea/>
-                  <label>Message</label>
-                </div> */}
               </form>
             </div>
         </div>
