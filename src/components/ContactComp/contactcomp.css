@@ -112,6 +112,13 @@
     font-size: 12px;
     border-radius: 0;
 }
+#firstname_inputfield, #lastname_inputfield, #email_inputfield, #tel_inputfield,
+#subject_inputfield, #message_textarea{
+    border: 0px;
+    outline: 0px;
+    border-radius: 0%;
+    border-bottom: 1px solid #2f3239;
+}
 input[type=button]{
     width: 100%;
     padding: 15px 0px !important;
@@ -153,14 +160,10 @@ input[type=button]:hover{
         font-size: 14px;
         /* overflow: hidden; */
     }
-    #firstname_inputfield, #lastname_inputfield, #email_inputfield, #tel_inputfield,
-    #subject_inputfield, #message_textarea{
-        border: 0;
-        outline: 0;
-        /* border-bottom: 1px solid #2f3239; */
-    }
     #send_message_button{
         padding: 15px 0px !important;
+        height: 51px;
+        box-sizing: border-box;
     }
     .user_box label{
         font-size: 14px;

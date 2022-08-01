@@ -84,7 +84,7 @@
     color: #2f3239;
     border: none;
     outline: none;
-    border-radius: 0;
+    border-radius: 5px;
 }
 .footer .news_letter_container .submit_newsletter_button{
     display: flex;
@@ -103,7 +103,7 @@
     /* animation: 1.1s ease-out 0s 1 slideInFromLeft; */
     font-family: 'Poppins', sans-serif;
     /* margin-bottom: 5px; */
-    border-radius: 0;
+    border-radius: 5px;
 }
 .footer .news_letter_container .submit_newsletter_button:hover{
     background-color: #ad0f0f;
