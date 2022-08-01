@@ -33,33 +33,33 @@ function Contactcomp(props) {
               <form>
                 <div className='input_container'>
                   <div class="user_box">
-                    <input type='text' required/>
+                    <input type='text' id='firstname_inputfield' required/>
                     <label>First Name</label>
                   </div>
                   <div class="user_box">
-                    <input type='text' required/>
+                    <input type='text' id='lastname_inputfield' required/>
                     <label>Last Name</label>
                   </div>
                 </div>
                 <div className='input_container'>
                   <div class="user_box">
-                    <input type='email' required/> 
+                    <input type='email' id='email_inputfield' required/> 
                     <label>Email</label>
                   </div>
                   <div class="user_box">
-                    <input type='tel' required/>
+                    <input type='tel' id='tel_inputfield' required/>
                     <label>Phone Number</label>
                   </div>
                 </div>
                 <div className='user_box other_container'>
-                  <input type='text' required/> 
+                  <input type='text' id='subject_inputfield' required/> 
                   <label>Subject</label>
                 </div>
                 <div className='user_box other_container'>
-                  <textarea required/> 
+                  <textarea required id='message_textarea'/> 
                   <label>Message</label>
                 </div>
-                <input type="button" value="Send Message"/>
+                <input type="button" id='send_message_button' value="Send Message"/>
               </form>
             </div>
         </div>

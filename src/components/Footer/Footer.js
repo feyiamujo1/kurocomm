@@ -20,7 +20,7 @@ function Footer() {
               <p>Stay current with our latest insights on selected <br className='breaker'></br> topics</p>
               <form>
                 <input type="email" placeholder='Email'/>
-                <input type="submit"/>
+                <input className='submit_newsletter_button' type="submit"/>
               </form>
             </div>
           </div>

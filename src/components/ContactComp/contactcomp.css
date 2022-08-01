@@ -35,7 +35,6 @@
     align-items: flex-start;
     cursor: pointer;
 }
-
 .email_container p, .location_container p, .phone_container p{
     margin-top: 0px;
     
@@ -71,7 +70,7 @@
     width: 47%;
     box-sizing: border-box;
     margin-bottom: 20px;
-  }
+}
 .user_box input, .other_container textarea {
     width: 100%;
     padding: 10px 5px;
@@ -81,8 +80,8 @@
     color: #2f3239;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #2f3239;
     outline: none;
+    border-bottom: 1px solid #2f3239;
     background: transparent;
 }
 .user_box input:hover, .other_container textarea:hover{
@@ -152,7 +151,16 @@ input[type=button]:hover{
     .user_box input, .other_container textarea{
         margin-bottom: 15px;
         font-size: 14px;
-        overflow: hidden;
+        /* overflow: hidden; */
+    }
+    #firstname_inputfield, #lastname_inputfield, #email_inputfield, #tel_inputfield,
+    #subject_inputfield, #message_textarea{
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid #2f3239;
+    }
+    #send_message_button{
+        padding: 15px 0px !important;
     }
     .user_box label{
         font-size: 14px;
