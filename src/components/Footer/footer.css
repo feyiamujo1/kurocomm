@@ -195,11 +195,15 @@
         box-sizing: border-box;
         margin-bottom: 10px;
     }
-    /* .footer .news_letter_container input[type="email"]{
+    .footer .news_letter_container input[type="email"]{
         width: 70%;
+        height: 41px !important;
+        box-sizing: border-box;
     }
     .footer .news_letter_container .submit_newsletter_button{
         width: 30%;
+        height: 41px !important;
+        box-sizing: border-box;
         text-align: center;
-    } */
+    }
 }
