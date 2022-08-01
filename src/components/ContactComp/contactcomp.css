@@ -81,7 +81,7 @@
     margin-bottom: 30px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #2f3239;
+    /* border-bottom: 1px solid #2f3239; */
     background: transparent;
 }
 .user_box input:hover, .other_container textarea:hover{
@@ -157,7 +157,7 @@ input[type=button]:hover{
     #subject_inputfield, #message_textarea{
         border: 0;
         outline: 0;
-        border-bottom: 1px solid #2f3239;
+        /* border-bottom: 1px solid #2f3239; */
     }
     #send_message_button{
         padding: 15px 0px !important;
