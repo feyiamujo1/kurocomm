@@ -1,10 +1,10 @@
 import React from 'react'
 import Construction from '../../components/construction/Construction'
 
-function Services() {
+function Projects() {
   return (
     <div><Construction/></div>
   )
 }
 
-export default Services
+export default Projects

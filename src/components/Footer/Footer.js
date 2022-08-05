@@ -30,9 +30,9 @@ function Footer() {
               {/* <li><NavLink to="/" className="footer_link" >Home</NavLink></li> */}
               <li><NavLink to="/about" className="footer_link">About</NavLink></li>
               <li><NavLink to="/services" className="footer_link">Services</NavLink></li>
-              <li><NavLink to="/project" className="footer_link">Project</NavLink></li>
-              <li><NavLink to="/blog" className="footer_link">Clients</NavLink></li>
-              {/* <li><NavLink to="/contact" className="footer_link">Contact</NavLink></li> */}
+              <li><NavLink to="/projects" className="footer_link">Projects</NavLink></li>
+              {/* <li><NavLink to="/blog" className="footer_link">Clients</NavLink></li> */}
+              <li><NavLink to="/contact" className="footer_link">Contact</NavLink></li>
             </ul>
             <div className='socials'>
               <div><img src={FacebookIcon} alt='socials'/></div>

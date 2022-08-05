@@ -56,7 +56,6 @@
 }
 .navbar .nav_links li .text_link:visited{
     text-decoration: none;
-    color: #fff;
 }
 .active{
     color: #EF1514 !important;
