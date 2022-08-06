@@ -1,7 +1,7 @@
 import React from 'react';
 import "./footer.css";
 import Logo from "../../images/logo.png";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import FacebookIcon from "../../images/facebookicon.png";
 import TwitterIcon from "../../images/twittericon.png";
 import LinkedInIcon from "../../images/linkedinicon.png";
@@ -28,11 +28,11 @@ function Footer() {
             <p>Quick Links</p>
             <ul className='footer_nav'>
               {/* <li><NavLink to="/" className="footer_link" >Home</NavLink></li> */}
-              <li><NavLink to="/about" className="footer_link">About</NavLink></li>
-              <li><NavLink to="/services" className="footer_link">Services</NavLink></li>
-              <li><NavLink to="/projects" className="footer_link">Projects</NavLink></li>
+              <li><Link to="/about" className="footer_link">About</Link></li>
+              <li><Link to="/services" className="footer_link">Services</Link></li>
+              <li><Link to="/projects" className="footer_link">Projects</Link></li>
               {/* <li><NavLink to="/blog" className="footer_link">Clients</NavLink></li> */}
-              <li><NavLink to="/contact" className="footer_link">Contact</NavLink></li>
+              <li><Link to="/contact" className="footer_link">Contact</Link></li>
             </ul>
             <div className='socials'>
               <div><img src={FacebookIcon} alt='socials'/></div>
