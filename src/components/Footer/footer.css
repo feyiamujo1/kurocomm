@@ -25,6 +25,18 @@
     color: #bbbbbb;
     cursor: pointer;
 }
+.footer .footer_logo_container img{
+    cursor: pointer;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.footer .footer_logo_container img:hover{
+    filter: brightness(0.7);
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
 .footer .copyright_container p:hover{
     color: #fff;
 }

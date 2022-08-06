@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import Logo from "../../images/logo.png"
 import "./navbar.css"
 import * as IoIcon from "react-icons/io5"
@@ -55,7 +55,9 @@ function Nabvar() {
   return (
     <div className='navbar'>
         <div className="logo">
-            <img src={Logo} alt="logo"/>
+            <Link to="/">
+              <img src={Logo} alt="logo"/>
+            </Link>
         </div>
         <ul ref={sideBarRef} id='nav_links' className="nav_links">
             <li onClick={closeSideBar} className='nav_link'><NavLink to="/" className="text_link" >Home</NavLink></li>

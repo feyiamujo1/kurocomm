@@ -14,7 +14,9 @@ function Footer() {
       <div className='footer_container'>
         <div className='footer_top'>
           <div className='footer_logo_container'>
-            <img src={Logo} alt="logo"/>
+            <Link to="/">
+              <img src={Logo} alt="logo"/>
+            </Link>
             <div className='news_letter_container'>
               <h3>Subscribe to our NewsLetter</h3>
               <p>Stay current with our latest insights on selected <br className='breaker'></br> topics</p>
