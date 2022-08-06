@@ -12,9 +12,9 @@ function Nabvar() {
   for(var i =0; i < nav_link.length; i++ ){
     nav_link[i].style.display = "none";
   }
-  function refreshPage() {
-    window.location.reload(false);
-  }
+  // function refreshPage() {
+  //   window.location.reload(false);
+  // }
   const showSideBar = () => {
     document.getElementById("nav_links").style.width = "60%";
     document.getElementById("menubtn").style.display = "none";
@@ -58,12 +58,12 @@ function Nabvar() {
             <img src={Logo} alt="logo"/>
         </div>
         <ul ref={sideBarRef} id='nav_links' className="nav_links">
-            <li onClick={{closeSideBar, refreshPage}} className='nav_link'><NavLink to="/" className="text_link" >Home</NavLink></li>
-            <li onClick={{closeSideBar, refreshPage}} className='nav_link'><NavLink to="/about" className="text_link">About</NavLink></li>
-            <li onClick={{closeSideBar, refreshPage}} className='nav_link'><NavLink to="/services" className="text_link">Services</NavLink></li>
-            <li onClick={{closeSideBar, refreshPage}} className='nav_link'><NavLink to="/projects" className="text_link">Projects</NavLink></li>
+            <li onClick={closeSideBar} className='nav_link'><NavLink to="/" className="text_link" >Home</NavLink></li>
+            <li onClick={closeSideBar} className='nav_link'><NavLink to="/about" className="text_link">About</NavLink></li>
+            <li onClick={closeSideBar} className='nav_link'><NavLink to="/services" className="text_link">Services</NavLink></li>
+            <li onClick={closeSideBar} className='nav_link'><NavLink to="/projects" className="text_link">Projects</NavLink></li>
             {/* <li><NavLink to="/blog" className="text_link">Clients</NavLink></li> */}
-            <li onClick={{closeSideBar, refreshPage}}className='nav_link'><NavLink to="/contact" className="text_link">Contact</NavLink></li>
+            <li onClick={closeSideBar}className='nav_link'><NavLink to="/contact" className="text_link">Contact</NavLink></li>
             {/* <li><NavLink to="/about" className="text_link">About</NavLink></li>
             <li><NavLink to="/contact" className="text_link">Contact</NavLink></li>*/}
         </ul>
